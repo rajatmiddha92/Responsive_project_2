@@ -112,7 +112,7 @@ img {
     margin-left: 0;
   }
   .boxes {
-    padding: 0 18em;
+    padding: 0 16em;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: 130px 130px 130px 130px;
