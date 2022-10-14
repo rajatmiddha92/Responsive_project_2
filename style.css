@@ -1,0 +1,146 @@
+.part-1 {
+  text-align: center;
+}
+.box-sizes {
+  box-sizing: border-box;
+  width: 313px;
+  height: 226px;
+  border: 1px solid black;
+  margin-top: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 4px;
+  position: relative;
+}
+
+body {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+.part-1-content {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.text-small {
+  font-size: 0.7em;
+}
+.text-medium-small {
+  font-size: 0.9em;
+}
+.text-medium {
+  font-size: 1em;
+}
+.text-large {
+  font-size: 1.9em;
+}
+.text-extra-large {
+  font-size: 2.1em;
+}
+.fws {
+  font-weight: 400;
+}
+.fwl {
+  font-weight: 700;
+}
+.fwm {
+  font-weight: 600;
+}
+.fam-1 {
+  font-family: "Open Sans", sans-serif;
+}
+.fam-2 {
+  font-family: "Montserrat", sans-serif;
+}
+.c-1 {
+  color: #ababad;
+}
+.c-2 {
+  color: #464451;
+}
+.m-x-1 {
+  margin-left: 1.8em;
+  margin-right: 1.8em;
+}
+.m-x-2 {
+  margin-left: 2.5em;
+  margin-right: 2em;
+}
+.m-x-3 {
+  margin-left: 0.7em;
+  margin-right: 0.75em;
+}
+.b-1 {
+  border-top: 4px solid #eb6875;
+}
+.b-2 {
+  border-top: 4px solid #eac357;
+}
+.b-3 {
+  border-top: 4px solid #199fb2;
+}
+.b-4 {
+  border-top: 4px solid #5fd5cd;
+}
+.boxes > div {
+  padding-left: 1.5em;
+}
+h3 + p {
+  padding-right: 5.6em;
+}
+img {
+  width: 11.2vw;
+  height: 3.2vh;
+  position: absolute;
+  left: 15em;
+  top: 11em;
+}
+
+@media only screen and (min-width: 36em) {
+  .text-large {
+    font-size: 2.1em;
+  }
+  .m-x-2 {
+    margin-top: -1em;
+  }
+  .m-x-3 {
+    margin: -3em 30em 4.5em 30em;
+  }
+  .box-sizes {
+    width: 329px;
+    height: 239px;
+    margin-left: 0;
+  }
+  .boxes {
+    padding: 0 18em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 130px 130px 130px 130px;
+  }
+  .b-1 {
+    grid-row: 1 / span 2;
+    grid-column-start: 2;
+  }
+  .b-2 {
+    grid-row: 3 / span 4;
+    grid-column-start: 2;
+  }
+  .b-3 {
+    grid-row: 2 / span 3;
+    grid-column-start: 3;
+  }
+  .b-4 {
+    grid-row: 2 / span 3;
+    grid-column-start: 1;
+  }
+  img {
+    width: 4vw;
+  }
+
+  .text-medium {
+    font-size: 1.2em;
+  }
+  .text-small {
+    font-size: 0.82em;
+  }
+}
