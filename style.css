@@ -3,8 +3,8 @@
 }
 .box-sizes {
   box-sizing: border-box;
-  width: 313px;
-  height: 226px;
+  width:19.56em;
+  height: 14.12em;
   border: 1px solid black;
   margin-top: 1.5em;
   margin-left: auto;
@@ -107,16 +107,18 @@ img {
     margin: -3em 30em 4.5em 30em;
   }
   .box-sizes {
-    width: 329px;
-    height: 239px;
+    width: 20.56em;
+    height: 14.93em;
     margin-left: 0;
   }
   .boxes {
-     grid-column-gap:16px;
-    padding: 0 16em;
+    
+    padding-left:14em;
+
+    gap:2em;
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 130px 130px 130px 130px;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows:8.12em 8.12em 8.12em 8.12em;
   }
   .b-1 {
     grid-row: 1 / span 2;
